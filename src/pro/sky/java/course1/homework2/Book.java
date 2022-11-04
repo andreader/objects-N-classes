@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Book {
     private final String bookName;
     private final Author author;
-    private static int publishYear;
+    private int publishYear;
 
     public Book (String name, Author author, int year) {
         this.bookName = name;
